@@ -1,10 +1,20 @@
-- 👋 Hi, I’m @aminadabipremiacoes
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Instalador Whaticket SaaS - Redis em Docker
 
-<!---
-aminadabipremiacoes/aminadabipremiacoes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+```bash
+sudo apt -y update && apt -y upgrade
+```
+
+FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
+
+```bash
+sudo apt install -y git && git clone https://github.com/launcherbr/instalador.git instalador && sudo chmod -R 777 instalador  && cd instalador  && sudo ./install_primaria
+```
+
+## Requisitos
+
+| --- | Mínimo | Recomendado |
+| --- | --- | --- |
+| Node JS | 14.x | 16.x |
+| Ubuntu | 18.x | 20.x |
+| Memória RAM | 2Gb | 4Gb |  
+
